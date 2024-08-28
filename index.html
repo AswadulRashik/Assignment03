@@ -30,8 +30,8 @@
 
 
 
- <!-- header part -->
- <header class="bg-slate-50 px:48">
+ <!-- navbar part -->
+ <header class="font-manrope bg-slate-50 px:48">
   <div class="container mx-auto navbar  p-6 lg:pt-10 lg:p-0">
     <div class="navbar text-center">
         
@@ -85,11 +85,11 @@
 <!--Main Section-->
 
 <!--Banner Section-->
-<header class=" bg-slate-50 container max-auto w-11/12">
+<header class="font-manrope  bg-slate-50 container max-auto w-11/12">
 
   <div class="hero-content text-center ">
-    <div class="max-w-4xl flex flex-col mx-auto space-y-3 ">
-    <div>
+    <div class="max-w-4xl flex flex-col space-y-3 ">
+      <div>
         <img class="w-7/12 mx-auto" src="./assets/banner.png" alt="">
        
 
@@ -100,7 +100,7 @@
          <p class="py-6 text-black">With the help of reinterio Unlock your dream home with our expert guidance. We’re committed to creating personalized experiences, matching you with the perfect property. Trust us to turn your house hunt into a homecoming.</p>
 
          <button>
-         <a class="btn rounded-full border-none text-black bg-[#ABEF5F] text-xl"> View Details <i class="fa-solid -rotate-45 rounded-3xl p-2 bg-[#ABEF5F33] text-black fa-arrow-right"></i></a>
+         <a class="btn rounded-full border-none text-black bg-[#ABEF5F] text-xl"> View Details <i class="fa-solid -rotate-45 rounded-3xl p-2 bg-black text-white fa-arrow-right"></i></a>
        </button>
 
 
@@ -110,18 +110,20 @@
 </div>
 </header>
 
-<section class="flex md:justify-center items-center flex-col gap-5 md:flex-row  bg-gray-200 md:p-24 p-7 "> 
+<!--about us section-->
+<section class="font-manrope flex md:justify-center items-center flex-col gap-5 md:flex-row  bg-gray-200 md:p-24 p-7 "> 
   <section class="flex justify-center items-center pt-5 gap-8 flex-col  text-center md:items-start ">
+    <img src="./assets/Vector.png" alt="">
      <button class="flex gap-2 text-xl items-center bg-white rounded-2xl py-2 px-4 md:flex font-bold text-black"><i class="fa-solid fa-arrow-right text-sm rounded-full text-center text-black"></i>About Us</button>
      <h1 class="text-3xl font-extrabold text-black">We design thoughtful, liveable spaces</h1>
-     <p class="text-neutral-800">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+     <p class="text-black">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
      <div class="md:flex md:gap-5">
          <div class="flex gap-6 flex-col">
              <div class="bg-white flex rounded-3xl justify-center gap-6 text-start p-10 mx-auto">
                  <div>
-                  <h3 class="text-xl font-bold">Commercial</h3>
+                  <h3 class="text-xl text-black font-bold">Commercial</h3>
                   <img
-                class="lg:w-16 w-10 h-10 lg:h-16"
+                class="lg:w-16 w-10 h-16 lg:h-16"
                 src="assets/commercial.png"
                 alt=""
               />
@@ -131,7 +133,7 @@
              </div>
              <div class="bg-white flex rounded-3xl justify-center gap-6 text-start p-10 mx-auto">
                  <div>
-                     <h3 class="text-xl font-bold">Residential</h3>
+                     <h3 class="text-xl text-black font-bold">Residential</h3>
                      <img
                 class="lg:w-16 w-10 h-10 lg:h-16"
                 src="./assets/residential.png"
@@ -152,18 +154,17 @@
 
 
 
-<!--How we work-->
+<!--How we work section-->
 
-<section class="bg-gray-200 pb-16 p-4">
+<section class="font-manrope bg-gray-200 pb-16 p-4">
   <div class="container max-w-screen-xl mx-auto space-y-6">
-    <!-- text -->
     <div class="space-y-5 text-center">
       <button
         class="btn border-none text-base text-black font-bold rounded-full bg-white"
       >
         <i class="fa-solid fa-arrow-right"></i>How we work
       </button>
-      <h1 class="text-2xl text-black md:text-3xl lg:text-5xl font-extrabold">
+      <h1 class="text-5xl text-black md:text-3xl lg:text-5xl font-extrabold">
         Our Works Process
       </h1>
       <p
@@ -226,18 +227,18 @@
   </div>
 </section>
 
-<!--latest portfolio-->
+<!--latest portfolio section-->
 
-<section class="bg-[#FFFFFF]">
+<section class="font-manrope bg-[#FFFFFF]">
   <div class="mx-auto md:container md:py-24 p-2">
     <div class="text-center mt-4 md:mt-0 mb-4">
       <button class=" btn text-lg text-[#494949] font-extrabold  border-none w-72 rounded-full bg-[#ABEF5F33]"> <i
           class="fa-solid fa-arrow-right-long"></i>Explore our Latest works</button>
     </div>
-    <h3 class="text-center font-extrabold md:text-5xl text-3xl text-[#212121] py-5">Our Latest Portfolio</h3>
+    <h3 class="text-center font-extrabold md:text-5xl text-5xl text-[#212121] py-5">Our Latest Portfolio</h3>
     <p class="mx-auto text-center font-semibold text-[#494949] text-base md:w-4/6 mb-6 ">Our latest portfolio showcases cutting-edge real estate developments that blend innovation, sustainability, and luxury to meet diverse client needs.</p>
 
-    <!-- first div -->
+  
     <div class="grid md:grid-cols-[2fr,1fr] gap-6 md:py-6">
       <div class="bg-transparent p-4  border rounded-lg">
         <div class=" md:flex items-center justify-between gap-10">
@@ -261,7 +262,8 @@
         <img class="object-cover w-full" src="./assets/img2.png" alt="">
       </div>
     </div>
-    <!-- second div -->
+ 
+
     <div class="grid md:grid-cols-[1fr,2fr,1fr] gap-6 ">
       <div class=" p-4 mt-4 md:mt-0 md:order-1 order-3 bg-transparent border rounded-lg">
         <img class="object-cover w-full" src="./assets/img3.png" alt="">
@@ -297,7 +299,7 @@
 <!--Form-->
 
 
-        <section class="bg-[url('./assets/bg.jpg')] bg-cover">
+        <section class=" font-manrope  bg-[url('./assets/bg.jpg')] bg-cover">
           <div class="container p- lg:p-0 lg:w-4/6 mx-auto">
               <div class="flex flex-col text-center justify-center pt-14">
                   <a class="btn border-none text-[#494949] bg-[#ABEF5F33] mx-auto rounded-full mb-3"><i class="fa-solid text-black fa-arrow-right"></i>Let's Connect</a>
